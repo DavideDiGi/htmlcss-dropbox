@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.blue{
+    background-color: rgb(40, 95, 246);
+}
+.button{
+
+}
+.margin-top30{
+    margin-top: 30px;
+}
