@@ -9,9 +9,31 @@
 .button{
 
 }
+.flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.giant{
+    font-size: 40px;
+}
+/* .margin-auto{
+    width: 80%;
+    margin: auto;
+} */
 .margin-top30{
     margin-top: 30px;
 }
 .margin-top50{
     margin-top: 50px;
 }
+.margin-top60{
+    margin-top: 60px;
+}
+.margin-top100{
+    margin-top: 100px;
+}
+.margin-top150{
+    margin-top: 150px;
+}
+

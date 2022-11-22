@@ -4,10 +4,15 @@ header{
     width: 100vw;
     height: 60px;
     background-color: aquamarine;
-    display: flex;
-    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 30;
 }
-header>*{
+.flex.header-flex{
+    height: 100%;
+}
+.flex.header-flex>*{
     width: 30%;
     background-color: blanchedalmond;
 }
@@ -18,7 +23,6 @@ header .logo{
     width: 30%;
     height: 100%;
     background-color: rgb(102, 177, 234);
-    
 }
 /******************** NAV ********************/
 
@@ -39,13 +43,6 @@ header nav>*{
 header .links>*{
     background-color: coral;
     margin-right: 30px;
-
-}
-.left-nav>.links{
-    
-}
-.right-nav>.links{
-    
 }
 
 /*********************************** MAIN ***********************************/
@@ -62,9 +59,7 @@ section.azure-bg{
     height: 100%;
     background-color: green;
     margin: 0 auto;
-
 }
-
 .jumbotron{
     width: 100%;
     height: 40%;
@@ -92,10 +87,6 @@ section.azure-bg{
 .left-jumbotron>a{
     text-decoration: none;
     color: white;
-
-}
-.left-jumbotron>div{
-
 }
 .right-jumbotron>div{
     background-color: blue;
@@ -106,7 +97,7 @@ section.azure-bg{
 
 .main-container{
     width: 55vw;
-    height: 1000px;
+    min-height: 500px;
     margin: 0 auto;
     background-color: greenyellow;
 }
@@ -124,18 +115,14 @@ section.azure-bg{
 .checkbox>*{
     margin-right: 30px;
 }
-.flex-container{
-    width: 100%;
-    height: 73%;
-    display: flex;
-    justify-content: space-between;
 
+.flex.plans-container{
+    height: 700px;
 }
 .plan{
     width: 30%;
     height: 100%;
     background-color: cadetblue;
-    border: 1px dashed black;
 }
 .huge.plan{
     width: 100%;
@@ -155,6 +142,52 @@ section.azure-bg{
 }
 .plan-footer{
     width: 100%;
-    height: 44.7%;
+    height: 46.0%;
     background-color: tomato;
+}
+
+/******************** THIRD SECTION ********************/
+
+section.main-container{
+    background-color: burlywood;
+}
+.big-image{
+    width: 60%;
+    min-height: 100%;
+    background-color: aquamarine;
+}
+.main-container .partner{
+    width: 40%;
+    height: 100%;
+    background-color: antiquewhite;
+}
+.partner>*{
+    margin: auto;
+    width: 80%;
+}
+.partner>h4{
+    height: 70px;
+    background-color: black;
+}
+.partner>p{
+    height: 150px;
+    background-color: blueviolet;
+}
+.partner>a{
+    height: 50px;
+    background-color: yellow;
+    display: block;
+}
+
+/******************** FOURTH SECTION ********************/
+
+
+.flex.multi-container{
+    flex-wrap: wrap;
+}
+.multitasking{
+    width: 31%;
+    min-height: 350px;
+    background-color:cadetblue;
+    border: 1px dashed black;
 }
