@@ -49,7 +49,7 @@ header .links>*{
 
 /******************** FIRST SECTION ********************/
 
-section.azure-bg{
+.large-bg{
     width: 100vw;
     height: 550px;
     background-color: rgb(185, 207, 229);
@@ -262,10 +262,10 @@ section.main-container{
 
 /******************** SEVENTH SECTION ********************/
 
-.azure-bg.short{
+.large-bg.short{
     height: 280px;
 }
-.azure-bg.short>.main-container{
+.large-bg.short>.main-container{
     min-height: 280px;
     display: flex;
     justify-content:center;
@@ -291,4 +291,28 @@ section:last-of-type .line{
     content:"";
     display: table;
     clear: both;
+}
+
+/********************************* FOOTER *********************************/
+
+footer.large-bg{
+    height: 430px;
+    background-color: black;
+}
+.footer.flex{
+    min-height: 250px;
+    padding-top:70px;
+}
+.footer-column{
+    width: calc(100% / 5);
+    min-height: 60%;
+    background-color: yellow;
+    border: 1px dashed white;
+    margin-left: 20px;
+    line-height: 2em;
+    font-size: 0.9em;
+}
+ul h4{
+    font-size: 1.3em;
+    margin-bottom: 10px;
 }
