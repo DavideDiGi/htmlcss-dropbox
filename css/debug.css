@@ -274,4 +274,21 @@ section.main-container{
 }
 
 /******************** LAST SECTION ********************/
-
+section.main-container:last-of-type{
+    min-height: 300px;
+}
+section:last-of-type .line{
+    margin-top: 30px;
+}
+.line>.question{
+    float: left;
+}
+.line>.arrow{
+    float: right;
+    margin-right: 50px;
+}
+.line::after {
+    content:"";
+    display: table;
+    clear: both;
+}
