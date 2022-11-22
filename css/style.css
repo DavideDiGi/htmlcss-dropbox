@@ -86,9 +86,6 @@ header .links>*{
 .right-jumbotron{
     height: 100%;
 }
-.left-jumbotron>*{
-    font-size: 0.8em;
-}
 .left-jumbotron>p{
     line-height: 1.3em;
     margin-bottom: 10px;
@@ -110,3 +107,93 @@ header .links>*{
     margin-left: 0px;
 }
 /******************** SECOND SECTION ********************/
+
+.main-container{
+    width: 55vw;
+    min-height: 500px;
+    margin: 0 auto;
+}
+section.main-container>h2.giant{
+    min-width: 70%;
+}
+.checkbox{
+
+}
+.checkbox *{
+    display: inline-block;
+}
+.checkbox>*{
+    margin-right: 30px;
+}
+/* .plan-container.flex.plans-container{
+    height: 700px;
+} */
+.plan{
+    width: 30%;
+    height: 100%;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
+.huge.plan{
+    width: 100%;
+    height: 200px;
+}
+.plan-header{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+.plan-main{
+    width: 100%;
+    height: 50%;
+    /* border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray; */
+
+}
+.plan-main .plan-container{
+    width: 80%;
+    margin: auto;    
+    padding-top: 20px;
+}
+.plan-main .plan-container>h4{
+    font-size: 1.3em;
+}
+.plan-main .plan-container>.price{
+    font-weight: bold;
+}
+.plan-main .plan-container>.month{
+    color: gray;
+}
+.plan-main .plan-container>.blue.button.margin-top30{
+    padding: 10px 0;
+    text-align: center;
+}
+.plan-main .plan-container>hr{
+    width: 20%;
+    opacity: 0.5;
+}
+.plan-footer{
+    width: 100%;
+    height: 46.0%;
+    border-bottom: 1px solid lightgray;
+}
+.plan-main{
+    width: 100%;
+    height: 50%;
+    /* border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray; */
+
+}
+.plan-footer .plan-container{
+    width: 80%;
+    min-height: 300px;
+    margin: auto;    
+    padding-top: 20px;
+}
+.plan-footer .plan-container i{
+    color: rgb(45, 96, 246);
+}
+
