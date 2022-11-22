@@ -1,4 +1,4 @@
-/******************** HEADER ********************/
+/* ******************* HEADER *******************
 
 header{
     width: 100vw;
@@ -24,7 +24,7 @@ header .logo{
     height: 100%;
     background-color: rgb(102, 177, 234);
 }
-/******************** NAV ********************/
+******************* NAV *******************
 
 header nav{
     width: 70%;
@@ -43,12 +43,12 @@ header nav>*{
 header .links>*{
     background-color: coral;
     margin-right: 30px;
-}
+} */
 
 /*********************************** MAIN ***********************************/
 
 /******************** FIRST SECTION ********************/
-
+/* 
 .large-bg{
     width: 100vw;
     height: 550px;
@@ -92,7 +92,7 @@ header .links>*{
     background-color: blue;
     width: 100%;
     height: 100%;
-}
+} */
 /******************** SECOND SECTION ********************/
 
 .main-container{

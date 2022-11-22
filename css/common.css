@@ -3,11 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
 .blue{
     background-color: rgb(40, 95, 246);
 }
 .button{
-
+    color: white;
+    padding: 5px 15px;
 }
 .flex{
     width: 100%;

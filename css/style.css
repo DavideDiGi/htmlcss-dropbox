@@ -1,0 +1,112 @@
+/******************** HEADER ********************/
+
+header{
+    width: 100vw;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 30;
+    background-color: white;
+}
+.flex.header-flex{
+    height: 100%;
+}
+.flex.header-flex>*{
+    width: 40%;
+}
+.header-left-side{
+    display: flex;
+}
+header .logo{
+    width: 25%;
+    position: relative;
+}
+header .logo img{
+    width: 65%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/******************** NAV ********************/
+
+header nav>*{
+    text-align: center;
+    line-height: 30px;
+    padding-top: 15px;
+}
+header .links>*{
+    font-size: 0.8em;
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+}
+.right-nav>.links>a:last-of-type{
+    color: white;
+    margin-left: 10px;
+}
+.left-nav>.links{
+    padding-right: 80px;
+}
+.left-nav>.links a{
+    margin-right: 30px;
+}
+
+.right-nav>.links{
+    padding-left: 130px;
+}
+.right-nav>.links a{
+    margin-left: 30px;
+}
+
+/*********************************** MAIN ***********************************/
+
+/******************** FIRST SECTION ********************/
+
+.large-bg{
+    height: 550px;
+    background-color: rgb(185, 207, 229);
+}
+.big-container{
+    width: 65vw;
+    height: 100%;
+    margin: 0 auto;
+}
+.jumbotron h1{
+    font-size: 60px;
+    padding-top: 60px;
+}
+.lower-jumbotron{
+    height: 70%;
+    display: flex;
+}
+.left-jumbotron{
+}
+.right-jumbotron{
+    height: 100%;
+}
+.left-jumbotron>*{
+    font-size: 0.8em;
+}
+.left-jumbotron>p{
+    line-height: 1.3em;
+    margin-bottom: 10px;
+}
+.left-jumbotron>a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+}
+.left-jumbotron>.arrow{
+    font-size: 2em;
+}
+.right-jumbotron>div{
+    height: 95%;
+}
+.right-jumbotron img{
+    height: 100%;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+/******************** SECOND SECTION ********************/
