@@ -219,3 +219,43 @@ section.main-container{
     display: block;
     color: blue;
 }
+
+/******************** SIXTH SECTION ********************/
+
+.very-huge.flex{
+    background-color: green;
+    height: 65vh;
+}
+.big-square{
+    width: calc(100% / 3);
+    height: 100%;
+    background-color:lightcoral;
+    border: 1px dashed black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.center.big-square{
+    flex-direction: column;
+}
+.square{
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+    background-color: aqua;
+    border: 1px solid white;
+}
+.center.big-square>*{
+    width: 90%;
+    margin: 0 auto;
+}
+.big-logo{
+    height: 25%;
+    background-color: bisque;
+}
+.cit{
+    height: 25%;
+    background-color: white;
+}
+.signature{
+    height: 20%;
+    background-color: goldenrod;
+}
