@@ -259,3 +259,19 @@ section.main-container{
     height: 20%;
     background-color: goldenrod;
 }
+
+/******************** SEVENTH SECTION ********************/
+
+.azure-bg.short{
+    height: 280px;
+}
+.azure-bg.short>.main-container{
+    min-height: 280px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/******************** LAST SECTION ********************/
+
