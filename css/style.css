@@ -247,3 +247,79 @@ section.main-container{
     display: block;
     color: blue;
 }
+
+/******************** SIXTH SECTION ********************/
+
+.very-huge.flex{
+    height: 55vh;
+}
+.big-square{
+    width: calc(100% / 3);
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.center.big-square{
+    flex-direction: column;
+    background-color: aliceblue;
+}
+.square{
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+
+}
+.square img{
+    width: 100%;
+    height: 100%;
+    padding: 60px;
+    filter: invert(1);
+}
+.left .top-left.square{
+    background-color: rgb(144, 238, 144);
+    border: 10px solid rgba(255, 255, 255, 0.5)
+}
+.left .top-right.square{
+    background-color: darkred;
+}
+.left .bottom-left.square{
+    background-color: skyblue;
+}
+.left .bottom-right.square{
+    background-color: red;
+}
+.right .top-left.square{
+    background-color: red;
+}
+.right .top-right.square{
+    background-color: lightblue;
+}
+.right .bottom-left.square{
+    background-color: darkblue;
+}
+.right .bottom-right.square{
+    background-color: gold;
+}
+.center.big-square>*{
+    width: 90%;
+    margin: 0 auto;
+}
+.big-logo{
+    height: 25%;
+}
+.big-logo img{
+    width: 100%;
+    height: 100%;
+    padding-right: 250px;
+}
+.center.big-square>hr{
+    width: 20%;
+    opacity: 0.5;
+    margin-left: 25px;
+}
+.cit{
+    padding-top: 30px;
+}
+.signature{
+    padding-top: 30px;
+
+}
