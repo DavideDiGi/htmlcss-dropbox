@@ -29,6 +29,11 @@ header .logo img{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+#go-down{
+    color: black;
+    display: inline-block;
+    padding-top: 60px;
+}
 /******************** NAV ********************/
 
 header nav>*{
@@ -254,6 +259,7 @@ section.main-container>h2.giant{
 .center.big-square{
     flex-direction: column;
     background-color: aliceblue;
+    overflow: scroll;
 }
 .square{
     width: calc(100% / 2);
@@ -361,7 +367,12 @@ section:last-of-type .line{
     display: table;
     clear: both;
 }
-
+.answer{
+    display: none;
+}
+.line:hover>.answer{
+    display: block;
+}
 /********************************* FOOTER *********************************/
 
 footer.large-bg{
