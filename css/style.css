@@ -323,3 +323,29 @@ section.main-container{
     padding-top: 30px;
 
 }
+
+/******************** SEVENTH SECTION ********************/
+
+.large-bg.short{
+    height: 280px;
+}
+.large-bg.short>.main-container{
+    min-height: 280px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    justify-content: space-around;
+}
+.large-bg.short .giant{
+    color: purple;
+    width: 50%;
+}
+.large-bg.short .last.button{
+    color: black;
+    background-color: white;
+    width: 30%;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    margin-top: -35px;
+}

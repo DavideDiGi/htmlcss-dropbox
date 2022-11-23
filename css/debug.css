@@ -259,7 +259,7 @@ header .links>*{
 
 /******************** SEVENTH SECTION ********************/
 
-.large-bg.short{
+/* .large-bg.short{
     height: 280px;
 }
 .large-bg.short>.main-container{
@@ -268,7 +268,7 @@ header .links>*{
     justify-content:center;
     align-items: center;
     justify-content: space-around;
-}
+} */
 
 /******************** LAST SECTION ********************/
 section.main-container:last-of-type{
