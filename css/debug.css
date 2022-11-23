@@ -271,7 +271,8 @@ header .links>*{
 } */
 
 /******************** LAST SECTION ********************/
-section.main-container:last-of-type{
+
+/* section.main-container:last-of-type{
     min-height: 300px;
 }
 section:last-of-type .line{
@@ -288,11 +289,11 @@ section:last-of-type .line{
     content:"";
     display: table;
     clear: both;
-}
+} */
 
 /********************************* FOOTER *********************************/
 
-footer.large-bg{
+/* footer.large-bg{
     height: 430px;
     background-color: black;
 }
@@ -312,4 +313,4 @@ footer.large-bg{
 ul h4{
     font-size: 1.3em;
     margin-bottom: 10px;
-}
+} */

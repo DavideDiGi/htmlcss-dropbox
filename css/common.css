@@ -21,6 +21,10 @@ body{
 .giant{
     font-size: 30px;
 }
+.blue-color{
+    color: rgb(40, 94, 246);
+}
+
 .margin-left2-5{
     margin-left: 2.5px;
 }

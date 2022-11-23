@@ -52,7 +52,6 @@ header .links>*{
 .left-nav>.links a{
     margin-right: 30px;
 }
-
 .right-nav>.links{
     padding-left: 130px;
 }
@@ -80,8 +79,6 @@ header .links>*{
 .lower-jumbotron{
     height: 70%;
     display: flex;
-}
-.left-jumbotron{
 }
 .right-jumbotron{
     height: 100%;
@@ -139,13 +136,11 @@ section.main-container>h2.giant{
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
 }
-
 .plan-main .plan-container{
     width: 80%;
     margin: auto;    
     padding-top: 20px;
 }
-
 .plan-main.horizontal .plan-container.left-side{
     width: 65%;
     margin-left: 10px;
@@ -154,7 +149,6 @@ section.main-container>h2.giant{
     width: 35%;
     margin: 0 auto;
     padding-left: 50px;
-    
 }
 .plan-main.horizontal .plan-container.right-side>.blue.button{
     width: 70%;
@@ -191,8 +185,6 @@ section.main-container>h2.giant{
 
 /******************** THRIRD SECTION ********************/
 
-section.main-container{
-}
 .big-image{
     width: 60%;
     min-height: 100%;
@@ -251,7 +243,7 @@ section.main-container{
 /******************** SIXTH SECTION ********************/
 
 .very-huge.flex{
-    height: 55vh;
+    height: 65vh;
 }
 .big-square{
     width: calc(100% / 3);
@@ -275,14 +267,14 @@ section.main-container{
     filter: invert(1);
 }
 .left .top-left.square{
-    background-color: rgb(144, 238, 144);
+    background-color: rgb(172, 210, 160);
     border: 10px solid rgba(255, 255, 255, 0.5)
 }
 .left .top-right.square{
-    background-color: darkred;
+    background-color: rgb(88, 19, 43);;
 }
 .left .bottom-left.square{
-    background-color: skyblue;
+    background-color: rgb(64, 145, 201);
 }
 .left .bottom-right.square{
     background-color: red;
@@ -321,7 +313,6 @@ section.main-container{
 }
 .signature{
     padding-top: 30px;
-
 }
 
 /******************** SEVENTH SECTION ********************/
@@ -337,7 +328,7 @@ section.main-container{
     justify-content: space-around;
 }
 .large-bg.short .giant{
-    color: purple;
+    color: rgb(88, 19, 43);
     width: 50%;
 }
 .large-bg.short .last.button{
@@ -348,4 +339,66 @@ section.main-container{
     text-align: center;
     padding: 10px;
     margin-top: -35px;
+}
+
+/******************** LAST SECTION ********************/
+
+section.main-container:last-of-type{
+    min-height: 300px;
+}
+section:last-of-type .line{
+    margin-top: 30px;
+}
+.line>.question{
+    float: left;
+}
+.line>.arrow{
+    float: right;
+    margin-right: 50px;
+}
+.line::after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+/********************************* FOOTER *********************************/
+
+footer.large-bg{
+    height: 430px;
+    background-color: black;
+}
+.footer.flex{
+    min-height: 250px;
+    padding-top:70px;
+}
+.footer-column{
+    color: white;
+    width: calc(100% / 5);
+    min-height: 60%;
+    margin-left: 20px;
+    line-height: 2em;
+    font-size: 0.9em;
+}
+ul h4{
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    font-size: 0.8em;
+}
+footer hr{
+    width: 10%;
+    opacity: 0.5;
+    margin-left: 20px;
+}
+.language{
+    color: grey;
+    margin-left: 20px;
+}
+.language .ita{
+    margin-left: 5px;
 }
