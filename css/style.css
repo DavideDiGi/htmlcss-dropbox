@@ -192,7 +192,6 @@ section.main-container>h2.giant{
 /******************** THRIRD SECTION ********************/
 
 section.main-container{
-    /* background-color: burlywood; */
 }
 .big-image{
     width: 60%;
@@ -236,3 +235,15 @@ section.main-container{
     width: 100%;
 }
 
+/******************** FIFTH SECTION ********************/
+
+.main-container.margin-top150{
+    min-height:250px;
+}
+.main-container.margin-top150>.giant{
+    max-width: 60%;
+}
+.main-container.margin-top150>.more{
+    display: block;
+    color: blue;
+}
