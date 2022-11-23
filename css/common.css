@@ -27,16 +27,27 @@ body{
 .margin-left5{
     margin-left: 5px;
 }
+.margin-left10{
+    margin-left: 10px;
+}
+.margin-left40{
+    margin-left: 40px;
+}
+.padding-right8{
+    padding-right: 8px;
+}
+.padding-right9{
+    padding-right: 50px;
+}
+.font-size09{
+    font-size: 0.9em;
+}
 .font-size08{
     font-size: 0.8em;
 }
 .font-size07{
     font-size: 0.7em;
 }
-/* .margin-auto{
-    width: 80%;
-    margin: auto;
-} */
 .margin-top10{
     margin-top: 10px;
 }
@@ -45,6 +56,9 @@ body{
 }
 .margin-top20{
     margin-top: 20px;
+}
+.margin-top25{
+    margin-top: 25px;
 }
 .margin-top30{
     margin-top: 30px;
@@ -64,7 +78,7 @@ body{
 .margin-top100{
     margin-top: 100px;
 }
-.margin-top150{
+.main-container.margin-top150{
     margin-top: 150px;
 }
 
