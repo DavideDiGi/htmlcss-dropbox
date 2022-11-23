@@ -192,7 +192,7 @@ section.main-container>h2.giant{
 /******************** THRIRD SECTION ********************/
 
 section.main-container{
-    background-color: burlywood;
+    /* background-color: burlywood; */
 }
 .big-image{
     width: 60%;
@@ -207,9 +207,6 @@ section.main-container{
 .partner>*{
     width: 80%;
 }
-.partner>h4{
-    font-size: 1.1em;
-}
 .partner>p{
     width: 85%;
 }
@@ -223,4 +220,19 @@ section.main-container{
     text-align: center;
 }
 
+/******************** FOURTH SECTION ********************/
+
+.flex.multi-container{
+    flex-wrap: wrap;
+}
+.multitasking{
+    width: 31%;
+    min-height: 350px;
+}
+.multitasking .multi-image{
+    width: 100%;
+}
+.multitasking .multi-image img{
+    width: 100%;
+}
 

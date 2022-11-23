@@ -48,6 +48,10 @@ body{
 .font-size07{
     font-size: 0.7em;
 }
+.font-size11{
+    font-size: 1.1em;
+}
+
 .margin-top10{
     margin-top: 10px;
 }
@@ -77,6 +81,9 @@ body{
 }
 .margin-top100{
     margin-top: 100px;
+}
+.main-container.margin-top130{
+    margin-top: 130px;
 }
 .main-container.margin-top150{
     margin-top: 150px;
